@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/33d9bf7b3f.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <script src="script.js"></script>
+        <div class="header">
+            <button class="icon" onclick="eraseElementos()">
+                <i class="fa-solid fa-broom"></i>
+            </button>
+            <h2>Lista de tarefas</h2>
+            <input type="text" id="tarefa" placeholder="Informe a tarefa" />
+            <span onclick="addElemento()" class="addBtn">Incluir</span>
+        </div>
+        <ul id="itemLista">
+        </ul>
+    </body>
+</html>
